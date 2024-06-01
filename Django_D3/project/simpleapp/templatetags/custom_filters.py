@@ -50,4 +50,5 @@ def censor(text):
         censor_text += string
     elif string != '':
         censor_text += pattern * len(string)
+
     return censor_text
